@@ -9,4 +9,5 @@ The purpose of this Repo is to save and track the micro projects that could prov
 # misc
 Misc Micro projects 
 
-- Branch alternative contains code/data to crawl the website http://alternativeto.net/ for FOSS products  
+- Branch alternative contains code/data to crawl the website http://alternativeto.net/ for FOSS products.
+- Branch tanseeq contains code for a simple gadget that is used to query college tanseeq results along with a script to format the data in a csv form.
