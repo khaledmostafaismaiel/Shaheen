@@ -11,3 +11,4 @@ Misc Micro projects
 
 - Branch alternative contains code/data to crawl the website http://alternativeto.net/ for FOSS products.
 - Branch tanseeq contains code for a simple gadget that is used to query college tanseeq results along with a script to format the data in a csv form.
+- Branch **1M.Site** contains web-technologies crawler that gets the technologies (Rails/PHP/..) a certain website is using, given the CSV file containing the websites. It supports both HTTP/HTTPS. 
