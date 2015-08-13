@@ -5,6 +5,16 @@ The purpose of this Repo is to save and track the micro projects that could prov
 - Please put each micro project in a separate branch 
 - Leave the Master branch empty expect for this readme file
 - Update readme file with your project's branch and its description. 
+ 
+To Checkout only the branch you need, please follow the following steps 
+
+```bash
+mkdir working_dir && cd working_dir
+git init .                            #initialize empty repo
+git checkout -b tanseeq               # switch to a local branch with the same name to avoid confusion, not necessary though
+git remote add origin  git@github.com:espace/misc.git 
+git pull origin tanseeq
+```
 
 # misc
 Misc Micro projects 
