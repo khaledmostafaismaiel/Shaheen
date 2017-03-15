@@ -37,3 +37,5 @@ Misc Micro projects
 - [**facebook-chatbot**] (https://github.com/espace/misc/tree/Facebook-Chatbot) get weather status and pictures from openweatherMap and NASA APIs in a conversation chat based on NLP Wit.ai engine 
 
 - [**sms-to-email**] (https://github.com/espace/misc/tree/sms-to-email) Receive SMS on a USB modem connected to a Raspberry Pi , and forwards it as an email specifying the content and the sender of the SMS
+
+- [**MyBus**](https://github.com/espace/misc/tree/mybus), A prototype for Careem-like backend for buses using MongoDB and NodeJS.
