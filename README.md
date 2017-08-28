@@ -39,3 +39,5 @@ Misc Micro projects
 - [**sms-to-email**] (https://github.com/espace/misc/tree/sms-to-email) Receive SMS on a USB modem connected to a Raspberry Pi , and forwards it as an email specifying the content and the sender of the SMS
 
 - [**MyBus**](https://github.com/espace/misc/tree/mybus), A prototype for Careem-like backend for buses using MongoDB and NodeJS.
+
+- [**Arabic OCR**](https://github.com/espace/misc/blob/arabic_ocr), Arabic OCR that recognizes text from egyptian social security number and extract the name and the address on the provided SSN.
