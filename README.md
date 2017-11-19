@@ -41,3 +41,5 @@ Misc Micro projects
 - [**MyBus**](https://github.com/espace/misc/tree/mybus), A prototype for Careem-like backend for buses using MongoDB and NodeJS.
 
 - [**Arabic OCR**](https://github.com/espace/misc/tree/arabic_ocr), Arabic OCR that recognizes text from egyptian social security number and extract the name and the address on the provided SSN.
+
+- [**ntopng-total-traffic**](https://github.com/espace/misc/tree/ntopng-total-traffic), This is an ntopng custom Lua script to grab total traffic per interface.
