@@ -44,4 +44,6 @@ Misc Micro projects
 
 - [**ntopng-total-traffic**](https://github.com/espace/misc/tree/ntopng-total-traffic), This is an ntopng custom Lua script to grab total traffic per interface.
 
+- [**Rwaq Recommender**](https://github.com/espace/misc/tree/rwaq_recommender) Rwaq recommender written in R.
+
 - [**Rwaq recommender Predictionio**](https://github.com/espace/misc/tree/rwaq_recommender_predictionio) Predictionio integration to rwaq data.
