@@ -43,3 +43,5 @@ Misc Micro projects
 - [**Arabic OCR**](https://github.com/espace/misc/tree/arabic_ocr), Arabic OCR that recognizes text from egyptian social security number and extract the name and the address on the provided SSN.
 
 - [**ntopng-total-traffic**](https://github.com/espace/misc/tree/ntopng-total-traffic), This is an ntopng custom Lua script to grab total traffic per interface.
+
+- [**Rwaq recommender Predictionio**](https://github.com/espace/misc/tree/rwaq_recommender_predictionio) Predictionio integration to rwaq data.
