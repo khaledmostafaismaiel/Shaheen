@@ -49,3 +49,5 @@ Misc Micro projects
 - [**Rwaq recommender Predictionio**](https://github.com/espace/misc/tree/rwaq_recommender_predictionio) Predictionio integration to rwaq data.
 
 - [**Zoom Ionic**](https://github.com/espace/misc/tree/zoom-ionic) Sample App for zoom SDK to show the features of video conference for Login/Non-Login user and how to join or start a meeting.
+
+- [**Zoom OAuth**](https://github.com/espace/misc/tree/zoom-oauth) Sample App to generate access_token that will be used by user in ZOOM REST API.
