@@ -53,3 +53,5 @@ Misc Micro projects
 - [**Zoom OAuth**](https://github.com/espace/misc/tree/zoom-oauth) Sample App to generate access_token that will be used by user in ZOOM REST API.
 
 - [**NID-OCR**](https://github.com/espace/misc/tree/nid-ocr) Android aaplication to recognize national ID number from a caputred image of national ID card.
+
+- [**Collaborative Editor**](https://github.com/espace/misc/tree/collaborative-editor) A collaborative rich text editor using [Quill](https://github.com/quilljs/quill) and [ShareDB](https://github.com/share/sharedb).
