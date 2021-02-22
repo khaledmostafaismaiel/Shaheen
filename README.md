@@ -55,3 +55,5 @@ Misc Micro projects
 - [**NID-OCR**](https://github.com/espace/misc/tree/nid-ocr) Android aaplication to recognize national ID number from a caputred image of national ID card.
 
 - [**Collaborative Editor**](https://github.com/espace/misc/tree/collaborative-editor) A collaborative rich text editor using [Quill](https://github.com/quilljs/quill) and [ShareDB](https://github.com/share/sharedb).
+
+- [**PostgreSQL Arabic Full Text Search**](https://github.com/espace/misc/tree/postgres-fts) Arabic Full text Search implemented using PostgreSQ: + Snowball arabic dictionary-based stemmer.
