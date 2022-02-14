@@ -59,3 +59,4 @@ Misc Micro projects
 - [**PostgreSQL Arabic Full Text Search**](https://github.com/espace/misc/tree/postgres-fts) Arabic Full text Search implemented using PostgreSQ: + Snowball arabic dictionary-based stemmer.
 
 - [**Mautic**](https://github.com/espace/misc/tree/mautic_integration) An integration with Mautic platform to send emails via Mautic and sync users with Mautic contacts.
+- [**ActiveAdmin Bootstrap**](https://github.com/espace/misc/tree/activeadmin_bootstrap) A bootstrap for Rails active admin with manageable roles and permissions, modern design, and localization support.
