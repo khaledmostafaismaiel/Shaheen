@@ -60,4 +60,4 @@ Misc Micro projects
 
 - [**Mautic**](https://github.com/espace/misc/tree/mautic_integration) An integration with Mautic platform to send emails via Mautic and sync users with Mautic contacts.
 - [**ActiveAdmin Bootstrap**](https://github.com/espace/misc/tree/activeadmin_bootstrap) A bootstrap for Rails active admin with manageable roles and permissions, modern design, and localization support.
-- [**espace workadventure map**](https://github.com/espace/misc/tree/workadventure_espace_map) espace map to be integrated with workadventure.
+- [**Espace WorkAdventure Map**](https://github.com/espace/misc/tree/workadventure_espace_map) espace map to be integrated with workadventure.
