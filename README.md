@@ -1,6 +1,4 @@
-
-The purpose of this Repo is to save and track the micro projects that could prove helpful in the future
-
+# The purpose of this Repo is to save and track the micro projects that could prove helpful in the future
 
 1. Please put each micro project in a separate branch
 2. Leave the Master branch empty expect for this readme file
@@ -16,10 +14,11 @@ git remote add origin  git@github.com:espace/misc.git
 git pull origin tanseeq
 ```
 
-# misc
+## misc
+
 Misc Micro projects
 
-- Branch [**alternative**](https://github.com/espace/misc/tree/alternative) contains code/data to crawl the website http://alternativeto.net/ for FOSS products.
+- Branch [**alternative**](https://github.com/espace/misc/tree/alternative) contains code/data to crawl the website <http://alternativeto.net/> for FOSS products.
 
 - Branch [**tanseeq**](https://github.com/espace/misc/tree/tanseeq) contains code for a simple gadget that is used to query college tanseeq results along with a script to format the data in a csv form.
 
@@ -59,5 +58,9 @@ Misc Micro projects
 - [**PostgreSQL Arabic Full Text Search**](https://github.com/espace/misc/tree/postgres-fts) Arabic Full text Search implemented using PostgreSQ: + Snowball arabic dictionary-based stemmer.
 
 - [**Mautic**](https://github.com/espace/misc/tree/mautic_integration) An integration with Mautic platform to send emails via Mautic and sync users with Mautic contacts.
+
 - [**ActiveAdmin Bootstrap**](https://github.com/espace/misc/tree/activeadmin_bootstrap) A bootstrap for Rails active admin with manageable roles and permissions, modern design, and localization support.
+
 - [**Espace WorkAdventure Map**](https://github.com/espace/misc/tree/workadventure_espace_map) espace map to be integrated with workadventure.
+
+- [**Google chatbot**](https://github.com/espace/misc/tree/google-chatbot) helps you efficiently estimate agile stories by helping you conduct Planning Poker right inside your google chat rooms.
