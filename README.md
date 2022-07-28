@@ -64,3 +64,5 @@ Misc Micro projects
 - [**Espace WorkAdventure Map**](https://github.com/espace/misc/tree/workadventure_espace_map) espace map to be integrated with workadventure.
 
 - [**Google chatbot**](https://github.com/espace/misc/tree/google-chatbot) helps you efficiently estimate agile stories by helping you conduct Planning Poker right inside your google chat rooms.
+
+- [**Keycload with Android Side**](https://github.com/espace/misc/tree/branch_keycloak-android-oidc) Integration with Android side using exceed server.
