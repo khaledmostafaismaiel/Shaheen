@@ -71,4 +71,6 @@ Misc Micro projects
 
 - [**E2E - Selenium Java - Gradle Docker Framework**](https://github.com/espace/misc/tree/Selenium-Framework-Gradle-Docker).
 
+- [**Browser-Proxied File Uploader**](https://github.com/espace/misc/tree/proxied-file-upload) A proof of concept for downloading large files from a remote server and directly uploading it to another sever using Ajax.
+
 
