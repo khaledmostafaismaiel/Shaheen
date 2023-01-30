@@ -69,7 +69,7 @@ Misc Micro projects
 
 - [**Keycloak Integration with iOS**](https://github.com/espace/misc/tree/keycloak-ios-oidc) using exceed server.
 
-- [**E2E - Selenium Java - Gradle Docker Framework**](https://github.com/espace/misc/tree/Selenium-Framework-Gradle-Docker).
+- [**E2E - API - Selenium/Rest-Assured Java - Gradle Docker Framework**](https://github.com/espace/misc/tree/Selenium-Framework-Gradle-Docker) This is the basic structure for E2E & API tests using selenium and Restassured 
 
 - [**Browser-Proxied File Uploader**](https://github.com/espace/misc/tree/proxied-file-upload) A proof of concept for downloading large files from a remote server and directly uploading it to another sever using Ajax.
 
