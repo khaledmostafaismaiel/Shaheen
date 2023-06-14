@@ -76,3 +76,5 @@ Misc Micro projects
 - [**Build a 3D Room**](https://github.com/espace/misc/tree/3dRoom-SceneKit-ios) using SceneKit.
 
 - [**Draw a 2D lines**](https://github.com/espace/misc/tree/2d-drawing-SpriteKit-ios) to construct a room in 2D space using SpriteKit.
+
+- [**OpenAI API**](https://github.com/espace/misc/tree/openai-api) to use OpenAI API to call its models. Currently, ChatGPT.
