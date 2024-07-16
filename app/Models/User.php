@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use OwenIt\Auditing\Contracts\Auditable;
 
-class User extends Authenticatable implements FilamentUser, Auditable
+class User extends Authenticatable implements Auditable, FilamentUser
 {
     use HasFactory;
     use Notifiable;
