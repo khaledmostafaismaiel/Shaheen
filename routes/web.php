@@ -11,3 +11,5 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/boards/{board}', \App\Http\Controllers\ShowBoardController::class);
 });
 
+Route::get('/boards/{board}/sprints/{sprintId}', \App\Http\Controllers\ShowSprintController::class);
+Route::get('/api/boards/{board}/sprints/{sprintId}/issues', \App\Http\Controllers\ListSprintIssuesController::class);

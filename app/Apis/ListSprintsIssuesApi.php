@@ -4,13 +4,14 @@ namespace App\Apis;
 
 use App\Models\Board;
 
-class ListBoardSprintsApi
+class ListSprintsIssuesApi
 {
     private $board;
-
-    public function __construct(Board $board)
+    private $sprintId;
+    public function __construct(Board $board, $sprintId)
     {
         $this->board = $board;
+        $this->sprintId = $sprintId;
     }
 
     public function call(int $page=1, int $maxResults=100)
@@ -19,7 +20,7 @@ class ListBoardSprintsApi
 
         $jiraApi = new JiraApi($jira);
 
-        $url = $jira->domain.'/rest/agile/1.0/board/'.$this->board->jira_board_id.'/sprint';
+        $url = $jira->domain.'/rest/agile/1.0/board/'.$this->board->jira_board_id.'/sprint/'.$this->sprintId.'/issue';
 
         return $jiraApi->get($url, $page, $maxResults);
     }
