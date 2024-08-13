@@ -34,5 +34,22 @@ class JiraApi
             ]
         );
     }
-    
+
+    public function post(string $url, array $payload)
+    {
+        return Http::withHeaders(
+            [
+                'Authorization' => "Basic $this->credentials",
+            ]
+        )->post($url, $payload);
+    }
+
+    public function delete(string $url)
+    {
+        return Http::withHeaders(
+            [
+                'Authorization' => "Basic $this->credentials",
+            ]
+        )->delete($url);
+    }
 }

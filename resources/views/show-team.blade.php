@@ -22,15 +22,21 @@
                             </div>
                         @endif
 
-                        <ol class="list-group list-group-numbered">
+                        <ol class="list-group">
                             @foreach($boards as $board)
-                                <a href="/boards/{{$board->id}}">
-                                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                                        <div class="ms-2 me-auto">
-                                            <div>{{$board->name}}</div>
-                                        </div>
-                                    </li>
-                                </a>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <a href="/boards/{{$board->id}}">
+                                            {{$board->name}}
+                                        </a>
+                                    </div>
+                                    <form action="/boards/{{$board->id}}/issues/reset" method="post">
+                                        @csrf
+                                        <button type="submit" class="btn btn-outline-danger text-dark">
+                                            Reset
+                                        </button>
+                                    </form>
+                                </li>
                             @endforeach
                         </ol>
 

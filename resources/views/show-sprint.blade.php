@@ -39,11 +39,25 @@
             { name: "assignee", label: "Assignee" }
         ];
         gantt.config.readonly = '{{$readOnly}}';
-
         gantt.config.work_time = true;
+        gantt.setWorkTime({ day: {{SUNDAY}}, hours: true });
+        gantt.setWorkTime({ day: {{MONDAY}}, hours: true });
+        gantt.setWorkTime({ day: {{TUSEDAY}}, hours: true });
+        gantt.setWorkTime({ day: {{WEDNESDAY}}, hours: true });
+        gantt.setWorkTime({ day: {{THRUSDAY}}, hours: true });
+        gantt.setWorkTime({ day: {{FRIDAY}}, hours: false });
+        gantt.setWorkTime({ day: {{SATURDAY}}, hours: false });
+        gantt.config.drag_resize = false;
+        gantt.attachEvent("onTaskDblClick", function(id, e) {
+            return false;
+        });
 
         gantt.init("gantt_here");
 
         gantt.load("/api/boards/{{$board->id}}/sprints/{{$sprint['id']}}/issues?sprintStartDate={{$sprintStartDate}}&sprintEndDate={{$sprintEndDate}}")
+
+        var dp = new gantt.dataProcessor("/api/gantt-task/{{$jira->id}}");
+        dp.init(gantt);
+        dp.setTransactionMode("REST");
     </script>
 @endsection
