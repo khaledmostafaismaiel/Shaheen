@@ -35,6 +35,14 @@ return new class extends Migration
             $table->longText('payload');
             $table->integer('last_activity')->index();
         });
+
+        \App\Models\User::create(
+            [
+                "name" => "Super",
+                "email" => "super@shaheen.com",
+                "password" => bcrypt("12345678"),
+            ]
+        );
     }
 
     /**
