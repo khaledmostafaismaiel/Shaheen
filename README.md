@@ -14,8 +14,9 @@ providing a visual representation of sprint progress and dependencies.
 - **[Composer (V2)](https://getcomposer.org/)**
 - Mysql (8.0.39)
 - PHP (^8.2)
+- **[Nodejs (20.16.0)](https://nodejs.org/en/download/package-manager)**
 - npm (^10.8.1)
-
+  
 ## Essential Packages
 
 - Admin panel **[Filament Panel Builder (^3.2)](https://filamentphp.com/docs/3.x/panels/installation)**
